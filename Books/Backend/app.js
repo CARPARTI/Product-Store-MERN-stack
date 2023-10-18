@@ -14,9 +14,9 @@ app.use("/books", router);//localhost::5000/books
 app.use("/users",userRouter)
 
 
-mongoose.connect("mongodb+srv://admin:fusion77fall@cluster0.oxsoc.mongodb.net/bookStore?retryWrites=true&w=majority"
+mongoose.connect("#"
 ).then(()=> console.log("Connected to Database"))
 .then(() => {
     app.listen(5000);
 }).catch((err) => console.log(err));
-//password fusion77fall
+//password #
